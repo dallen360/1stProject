@@ -1,0 +1,38 @@
+$color-primary: #804848;
+$color-primary-dark: #613636;
+$color-secondary: rgb(224, 224, 224);
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #413f3c;
+$color-grey-dark-2: #818181;
+
+$font-primary: "Nunito", sans-serif;
+$font-display: "Stick No Bills", sans-serif;
+
+$bp-largest: 75em;
+$bp-large: 62.5em;
+$bp-medium: 50em;
+$bp-small: 37.5em;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-display;
+  color: $color-grey-dark-2;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: $color-secondary;
+}

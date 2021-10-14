@@ -1,0 +1,44 @@
+.banner {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  height: 24rem;
+
+  &__cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__text {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  &__btn {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 800;
+    color: $color-primary;
+    padding: 1rem 2rem;
+    background-color: $color-secondary;
+    border-radius: 2rem;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-secondary;
+    }
+  }
+
+  &__imgs {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__img {
+    height: 20rem;
+  }
+}

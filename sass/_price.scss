@@ -1,0 +1,43 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20rem;
+  &__title {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  &__cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8rem;
+  }
+
+  &__box {
+    width: 16vw;
+    height: 35vh;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-primary;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: rgb(207, 207, 207);
+    }
+  }
+
+  &__primary {
+    font-size: 2.5rem;
+    color: $color-grey-dark-1;
+  }
+
+  &__secondary {
+    font-size: 3.5rem;
+    color: $color-grey-dark-1;
+    text-align: center;
+  }
+}

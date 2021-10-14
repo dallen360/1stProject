@@ -1,0 +1,84 @@
+.section-slider {
+  margin: 0 auto;
+  height: 50rem;
+  width: 90vw;
+  overflow: hidden;
+}
+
+.section-slider__slides {
+  display: flex;
+  overflow-x: auto;
+}
+.section-slider__slides::-webkit-scrollbar {
+  display: none;
+}
+
+.section-slider__holder {
+  position: relative;
+}
+
+.section-slider__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5fr 1fr;
+  width: 40rem;
+  height: 40rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section-slider__box:hover {
+  cursor: pointer;
+}
+
+.section-slider__img {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  grid-column: 1 / span 3;
+}
+
+.section-slider__img--1 {
+  background-image: url(/images/images/air-max-90-0.jpeg);
+}
+.section-slider__img--2 {
+  background-image: url(/images/images/air-max-90-1.jpeg);
+}
+.section-slider__img--3 {
+  background-image: url(/images/images/air-max-90-5.jpeg);
+}
+.section-slider__img--4 {
+  background-image: url(/images/images/air-max-90-2.jpeg);
+}
+.section-slider__img--5 {
+  background-image: url(/images/images/air-max-90.jpeg);
+}
+.section-slider__img--6 {
+  background-image: url(/images/images/air-max-90-4.jpeg);
+}
+.section-slider__img--7 {
+  background-image: url(/images/images/air-max-90-3.jpeg);
+}
+
+.section-slider__text {
+  margin-top: 1.3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-slider__main {
+  font-size: 1.3rem;
+  color: black;
+  padding-bottom: 0.5rem;
+}
+
+.section-slider__sub {
+  font-size: 1.3rem;
+}
+
+.section-slider__price {
+  justify-self: flex-end;
+  margin: 1.3rem 1rem 0 0;
+  font-size: 1.5rem;
+  color: black;
+}
